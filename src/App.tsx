@@ -1,5 +1,5 @@
-import { useFeatureFlags } from "./feature-flags/FeatureFlagContext";
-import { NewDashboard } from "./features/NewDashboard";
+import { useFeatureFlags } from "./feature-flags/use-feature-flags";
+import { NewDashboard } from "./features/new-dashboard";
 
 export default function App() {
   const { flags, toggleFlag } = useFeatureFlags();
